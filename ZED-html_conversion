@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="ZED - Customization Form">
+	<title>«¤»</title>
+	<style>
+		.headers{align="center"}
+
+
+		.selectionTable{ 	
+			border:solid;
+			table-layout: auto;
+			width:90%;
+			
+			}
+		.webTable{
+			border:dashed;
+			width: 90%;
+			}
+		.appList{
+			float: right;
+			width: 50%;
+			margin: 1% 1% 1% 1%;
+			padding: 1% 1% 1% 3%;
+			border: solid;
+			}
+		.weblist{
+			float: right;
+			padding: 1% 1% 1% 1%;
+			border: solid;
+			}
+		#appBox{
+			
+			}
+		#appLabel{
+			
+			}
+	</style>
+
+</head>
+<body bgcolor="black" text="white">
+
+<h1 class="headers">Build Your ZED Program</h1>
+
+<table class="selectionTable">
+<tbody>
+<tr>
+	<td class="webTable">
+	<p><input type="checkbox" id="appBox" name="QV" >
+    	<label id="appLabel">QuikView</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="Samson" >
+    	<label id="appLabel">Samson</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="Avaya" >
+    	<label id="appLabel">Avaya</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="Outlook">
+    	<label id="appLabel">Outlook</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="Calculator">
+    	<label id="appLabel">Calculator</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="StickyNotes">
+    	<label id="appLabel">StickyNotes</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="miniCRT" >
+    	<label id="appLabel">Mini CRT</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="Avaya" >
+    	<label id="appLabel">Avaya</label>
+	</p>
+
+	<p><input type="checkbox" id="appBox" name="Avaya" >
+    	<label id="appLabel">Avaya</label>
+	</p>
+	</td>
+	</ul>
+</tr>
+</tbody>
+</table>
+		
+	
+</body>
+</DIV>
+</html>
